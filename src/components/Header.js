@@ -46,6 +46,7 @@ const Header = () => {
             src={"/assets/header/logo.png"}
             fill
             className="object-contain"
+            alt=""
           />
         </Link>
         {/* nav */}
