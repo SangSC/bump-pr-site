@@ -1,7 +1,7 @@
 # BUMP TOUR Unofficial Promotion Site
 
 ![desktop mode](https://i.imgur.com/uTtuRXl.jpg)
-![mobile mode](https://i.imgur.com/WBxu9LZ.jpg)
+![mobile mode](https://i.imgur.com/AjqU6WX.jpg)
 
 
 This project is inspired by the following video:
