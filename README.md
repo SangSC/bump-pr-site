@@ -1,3 +1,31 @@
+# BUMP TOUR Unofficial Promotion Site
+
+![desktop mode](https://i.imgur.com/uTtuRXl.jpg)
+![mobile mode](https://i.imgur.com/WBxu9LZ.jpg)
+
+
+This project is inspired by the following video:
+[https://youtu.be/2WGbEMz_1K8?si=LVJwURrZHtdM_QJ4](https://youtu.be/2WGbEMz_1K8?si=LVJwURrZHtdM_QJ4)
+
+Tools used:
+- React - Next.js
+- Tailwind CSS
+- npm
+- Swiper.js
+- Framer-Motion
+- JSON Server
+
+Key features include:
+- Responsive Web Design (RWD)
+- Audios playing function
+  
+
+-----------------------
+-----------------------
+
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
