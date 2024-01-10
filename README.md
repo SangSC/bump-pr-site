@@ -1,6 +1,6 @@
 # BUMP TOUR Unofficial Promotion Site
 
-![desktop mode](https://i.imgur.com/uTtuRXl.jpg)
+![desktop mode](https://i.imgur.com/mMOOBw7.jpg)
 ![mobile mode](https://i.imgur.com/AjqU6WX.jpg)
 
 
