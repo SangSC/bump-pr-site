@@ -31,7 +31,7 @@ const Header = () => {
   return (
     <header
       className={`fixed z-50 w-full transition-all ${
-        active ? "bg-primary/90 py-4 " : "bg-transparent py-4 "
+        active ? "bg-primary/90 py-2 " : "bg-transparent py-4 "
       }`}
     >
       <div className="container mx-auto flex flex-col xl:flex-row items-center justify-between">
