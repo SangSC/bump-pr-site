@@ -26,7 +26,7 @@ const AlbumSlider = () => {
   if (error) return "failed to load";
   if (!data)
     return (
-      <div className="mx-auto">
+      <div className="center-container">
         <div className="lds-ellipsis">
           <div></div>
           <div></div>
