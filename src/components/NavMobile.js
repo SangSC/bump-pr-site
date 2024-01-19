@@ -22,7 +22,7 @@ const NavMobile = () => {
       >
         <nav
           className={`${isOpen ? "right-0" : "-right-full"} 
-      xl:hidden fixed bg-primary w-[75vw] border-l-2 border-accent top-0 z-20 bottom-0 transition-all duration-500`}
+      xl:hidden fixed bg-primary w-[300px] border-l-2 border-accent top-0 z-20 bottom-0 transition-all duration-500`}
         >
           <div
             onClick={() => setIsOpen(false)}

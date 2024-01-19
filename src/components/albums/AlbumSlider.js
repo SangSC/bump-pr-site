@@ -24,7 +24,15 @@ const AlbumSlider = () => {
   console.log(data);
 
   if (error) return "failed to load";
-  if (!data) return "loading...";
+  if (!data)
+    return (
+      <div className="lds-ellipsis justify-center">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    );
 
   return (
     <>
