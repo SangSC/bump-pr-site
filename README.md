@@ -19,6 +19,8 @@ Tools used:
 Key features include:
 - Responsive Web Design (RWD)
 - Audios playing function
+- Applied REST API
+
   
 
 -----------------------
