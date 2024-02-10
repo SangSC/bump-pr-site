@@ -124,7 +124,7 @@ const Hero = () => {
             className="flex mb-8"
           >
             <Link
-              href="https://www.bumpofchicken.com/live_information/952"
+              href="https://www.bumpofchicken.com/contents/general_articles/1073"
               passHref={true}
               target="_blank"
             >
