@@ -128,7 +128,7 @@ const Hero = () => {
               passHref={true}
               target="_blank"
             >
-              <button className="btn btn-sm btn-accent">Details</button>
+              <button className="btn btn-sm btn-accent">Event Details</button>
             </Link>
           </motion.div>
         </div>
