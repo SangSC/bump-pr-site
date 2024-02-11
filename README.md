@@ -5,7 +5,7 @@
 ![mobile mode](https://i.imgur.com/AjqU6WX.jpg)
 
 
-This project is inspired by the following video:
+This project was inspired by the following video:
 [https://youtu.be/2WGbEMz_1K8?si=LVJwURrZHtdM_QJ4](https://youtu.be/2WGbEMz_1K8?si=LVJwURrZHtdM_QJ4)
 
 Tools used:
