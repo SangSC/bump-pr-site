@@ -211,3 +211,32 @@ body {
     transform: translate(24px, 0);
   }
 }
+
+/* intro video modal */
+
+.backdrop {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: #000000a4;
+  filter: blur(4px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+}
+
+.modal {
+  @apply bg-secondary/5;
+  width: clamp(70vw, 80vw, 90vw);
+  height: min(70vh, 80vh);
+
+  margin: auto;
+  padding: 0 2rem;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

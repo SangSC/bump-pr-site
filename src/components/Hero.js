@@ -1,8 +1,11 @@
 "use client";
 
+import React, { useState } from "react";
+
 import Image from "next/image";
 import Link from "next/link";
 import { MdSatelliteAlt } from "react-icons/md";
+import { FaCirclePlay } from "react-icons/fa6";
 
 import "../app/globals.css";
 import {
@@ -12,6 +15,9 @@ import {
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../variants";
+import Modal from "./Modal";
+
+import IntroVideo from "./IntroVideo";
 
 const locationSequence = [
   "Kanagawa",
@@ -33,6 +39,9 @@ const locationSequence = [
 ];
 
 const Hero = () => {
+  // const [modalOpen, setModalOpen] = React.useState(false);
+  // const close = () => setModalOpen(false);
+  // const open = () => setModalOpen(true);
   return (
     <section className="h-[85vh] xl:h-[810px]" id="home">
       <div className="container mx-auto h-full flex justify-center xl:justify-start">
@@ -64,26 +73,6 @@ const Hero = () => {
                 />
               </motion.div>
             </MouseParallaxChild>
-            {/* <MouseParallaxChild
-              factorX={0.9}
-              factorY={0.9}
-              className="absolute xl:left-6 z-30"
-            >
-              <motion.div
-                variants={fadeIn("up", 0.7)}
-                initial="hidden"
-                whileInView={"show"}
-                viewport={{ once: false, amount: 0.3 }}
-                className="w-[350px] h-[100px] xl:w-[600px] xl:h-[250px] "
-              >
-                <Image
-                  src={"/assets/hero/text-2.svg"}
-                  fill
-                  alt=""
-                  className="object-contain"
-                />
-              </motion.div>
-            </MouseParallaxChild> */}
           </MouseParallaxContainer>
 
           <motion.div
@@ -91,7 +80,7 @@ const Hero = () => {
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.4 }}
-            className="min-h-[60px] flex items-center mt-5 mb-5 gap-x-3"
+            className="min-h-[60px] flex items-center mt-3 mb-3 gap-x-3"
           >
             <div className="hidden xl:flex items-center xl:gap-x-2 text-[26px]">
               <div>HOMESICKEISEI</div>
@@ -121,7 +110,7 @@ const Hero = () => {
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.7 }}
-            className="flex mb-8"
+            className="flex flex-col xl:flex-row gap-x-3 gap-y-2 mb-5 "
           >
             <Link
               href="https://www.bumpofchicken.com/contents/general_articles/1073"
@@ -130,6 +119,12 @@ const Hero = () => {
             >
               <button className="btn btn-sm btn-accent">Event Details</button>
             </Link>
+            {/* intro video btn */}
+            {/* <div>
+              <button className="btn btn-sm btn-white gap-x-2">
+                Intro Video <FaCirclePlay />
+              </button>
+            </div> */}
           </motion.div>
         </div>
         {/* image */}
