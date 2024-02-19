@@ -21,6 +21,10 @@ Key features include:
 - Audios playing function
 - Applied REST API
 
+Features plan to add
+- popup video modal
+- event box scroll shadow
+
   
 
 -----------------------
