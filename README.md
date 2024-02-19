@@ -8,7 +8,7 @@
 This project was inspired by the following video:
 [https://youtu.be/2WGbEMz_1K8?si=LVJwURrZHtdM_QJ4](https://youtu.be/2WGbEMz_1K8?si=LVJwURrZHtdM_QJ4)
 
-Tools used:
+### Tools used:
 - React - Next.js
 - Tailwind CSS
 - npm
@@ -16,12 +16,12 @@ Tools used:
 - Framer-Motion
 - JSON Server
 
-Key features include:
+### Key features include:
 - Responsive Web Design (RWD)
 - Audios playing function
 - Applied REST API
 
-Features plan to add
+### Features plan to add:
 - popup video modal
 - event box scroll shadow
 
