@@ -1,12 +1,12 @@
 # [BUMP TOUR Unofficial Promotion Site](https://bump-tour-pr-site.vercel.app/)
 
-
+BUMP OF CHICKEN への愛を込めて作りました。\
 ![desktop mode](https://i.imgur.com/mMOOBw7.jpg)
 ![mobile mode](https://i.imgur.com/AjqU6WX.jpg)
 
 
 This project was inspired by the following video:
-[https://youtu.be/2WGbEMz_1K8?si=LVJwURrZHtdM_QJ4](https://youtu.be/2WGbEMz_1K8?si=LVJwURrZHtdM_QJ4)
+[Build A Music Website](https://youtu.be/2WGbEMz_1K8?si=LVJwURrZHtdM_QJ4)
 
 ### Tools used:
 - React - Next.js
