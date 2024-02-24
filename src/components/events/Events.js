@@ -2,7 +2,7 @@ import EventBox from "./EventBox";
 import SectionHeader from "../SectionHeader";
 
 const getEvents = async () => {
-  const res = await fetch("https://project-data-71p7.onrender.com/events");
+  const res = await fetch("https://bumppr-data.zeabur.app/events");
   return res.json();
 };
 const Events = async () => {

@@ -74,7 +74,6 @@ const Hero = () => {
               </motion.div>
             </MouseParallaxChild>
           </MouseParallaxContainer>
-
           <motion.div
             variants={fadeIn("up", 0.7)}
             initial="hidden"

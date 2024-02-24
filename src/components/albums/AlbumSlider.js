@@ -18,7 +18,7 @@ const fetcher = (url) => fetch(url).then((res) => res.json());
 const AlbumSlider = () => {
   const [thumbsSwiper, setThumbsSwiper] = useState(null);
   const { data, error } = useSWR(
-    "https://project-data-71p7.onrender.com/albums",
+    "https://bumppr-data.zeabur.app/albums",
     fetcher
   );
   console.log(data);

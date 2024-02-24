@@ -2,7 +2,7 @@ import SectionHeader from "../SectionHeader";
 import PostList from "./PostList";
 
 const getPosts = async () => {
-  const res = await fetch("https://project-data-71p7.onrender.com/posts");
+  const res = await fetch("https://bumppr-data.zeabur.app/posts");
   return res.json();
 };
 
