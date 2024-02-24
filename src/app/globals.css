@@ -162,6 +162,11 @@ body {
   text-align: center;
 }
 
+.scrollable-box {
+  overflow-y: scroll;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
 .lds-ellipsis div {
   position: absolute;
   top: 33px;
